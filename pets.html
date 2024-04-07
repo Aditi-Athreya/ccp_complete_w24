@@ -74,19 +74,22 @@
         </div>
     </main>
     <script>
-        // JavaScript for changing the style of the pet info on hover
+        // JavaScript for changing the layout and style of the pet info on hover
         document.addEventListener('DOMContentLoaded', function() {
             const petInfo = document.querySelectorAll('.pet-info')
             petInfo.forEach(pet => {
                 pet.addEventListener('mouseenter', function() {
-                    this.style.backgroundColor = 'darkgrey';
+                    this.style.backgroundColor = 'lightgrey';
+                    this.style.border = '2px solid black';
+                    this.style.borderRadius = '10px';
                 })
                 pet.addEventListener('mouseleave', function() {
                     this.style.backgroundColor = '';
+                    this.style.border = '';
+                    this.style.borderRadius = '';
                 })
             })
         })
-        
     </script>
 </body>
 </html>

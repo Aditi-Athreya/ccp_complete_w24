@@ -211,11 +211,11 @@ margin-bottom: 20px;
   }
 
   .pet-info:nth-child(2) {
-    grid-column: span 1;
+    grid-column: span 2;
   }
 
   .pet-info:nth-child(3) {
-    grid-column: span 2;
+    grid-column: span 3;
   }
 
   .recipe-grid {
