@@ -190,3 +190,50 @@ flex: 1;
 margin-bottom: 20px;
 }
 }
+
+@media only screen and (min-width: 1025px) {
+  .nav-list {
+    text-align: right;
+  }
+
+  .nav-list li {
+    display: inline;
+    margin-left: 20px;
+  }
+
+  .nav-list li a {
+    padding: 10px 20px;
+  }
+
+  #main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .pet-info:nth-child(2) {
+    grid-column: span 1;
+  }
+
+  .pet-info:nth-child(3) {
+    grid-column: span 2;
+  }
+
+  .recipe-grid {
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+  }
+
+  .recipe-card:nth-child(3) {
+    grid-column: span 1;
+  }
+
+  .grid-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .grid {
+    flex: 1;
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+}
