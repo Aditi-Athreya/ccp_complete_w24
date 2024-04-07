@@ -195,7 +195,7 @@ margin-bottom: 20px;
   /* link to the current page should pop up */
   .nav-list li a.active {
     background-color: lightcoral;
-    font-weight: semi-bold;
+    font-weight: bold;
     text-decoration: overline underline;
   }
 
