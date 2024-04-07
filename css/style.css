@@ -192,6 +192,13 @@ margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 1025px) {
+  /* link to the current page should pop up */
+  .nav-list li a.active {
+    background-color: lightcoral;
+    font-weight: semi-bold;
+    text-decoration: overline underline;
+  }
+
   .nav-list {
     text-align: right;
   }
