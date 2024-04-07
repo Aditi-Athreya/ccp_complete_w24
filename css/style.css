@@ -194,7 +194,7 @@ margin-bottom: 20px;
 @media only screen and (min-width: 1025px) {
   /* link to the current page should pop up */
   .nav-list li a.active {
-    background-color: lightcoral;
+    background-color: darkblue;
     font-weight: bold;
     text-decoration: overline underline;
   }
