@@ -68,5 +68,21 @@
     </div>
 </div>
 </main>
+<script>
+    // JavaScript for showing details while hovering over image
+    document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('img')
+        images.forEach(image => {
+            image.addEventListener('mouseenter', function() {
+                const text = this.alt
+                this.insertAdjacentHTML('afterend', `<p>${text}</p>`)
+            })
+            image.addEventListener('mouseleave', function() {
+                const text = this.alt
+                this.nextElementSibling.remove()
+            })
+        })
+    })
+</script>
 </body>
 </html>

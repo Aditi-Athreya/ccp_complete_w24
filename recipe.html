@@ -92,5 +92,21 @@
             </ol>
         </div>
     </main>
+    <script>
+        // JavaScript for changing the layout and color of the recipe card on hover
+        document.addEventListener('DOMContentLoaded', function() {
+            const recipeCards = document.querySelectorAll('.recipe-card')
+            recipeCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.backgroundColor = 'purple';
+                    this.style.transform = 'scale(1.1)';
+                })
+                card.addEventListener('mouseleave', function() {
+                    this.style.backgroundColor = '';
+                    this.style.transform = 'scale(1)';
+                })
+            })
+        })
+    </script>
 </body>
 </html>
