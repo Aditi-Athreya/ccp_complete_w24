@@ -192,12 +192,6 @@ margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 1025px) {
-  /* link to the current page should pop up */
-  .nav-list li a.active {
-    background-color: darkblue;
-    font-weight: bold;
-    text-decoration: overline underline;
-  }
 
   .nav-list {
     text-align: right;
@@ -210,6 +204,12 @@ margin-bottom: 20px;
 
   .nav-list li a {
     padding: 10px 20px;
+  }
+
+  .nav-list li a.active {
+    background-color: darkblue;
+    font-weight: bold;
+    text-decoration: overline underline;
   }
 
   #main {
