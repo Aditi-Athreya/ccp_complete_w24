@@ -207,7 +207,7 @@ margin-bottom: 20px;
   }
 
   .nav-list li a.active {
-    background-color: darkblue;
+    background-color: darkmagenta;
     font-weight: bold;
     text-decoration: overline underline;
   }
